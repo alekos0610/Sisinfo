@@ -5,14 +5,12 @@
 
 
 mitupla = ("Juan", 13, 1, 1995) # a diferencia de la lista va encerrada en parentesis
-nombre, dia, mes, agno = mitupla #desempaquetado de tupla.
+nombre, dia, mes, agno = mitupla  #desempaquetado de tupla.
 
 print(nombre)
 print(agno)
 print(mes)
 print(dia)
-
-
 
 
 
