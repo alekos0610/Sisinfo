@@ -23,10 +23,10 @@ sexo = opcion.lower()
 
 # Determinar si la persona es apta para ser seleccionada
 
-if sexo == "M" and talla >= 1.80 and masa <= 75:
+if sexo == "M" and talla >= 1.79 and masa <= 75:
     print("Ha sido seleccionado")
     
-elif sexo == "F" and talla >= 1.80 and masa <= 75:
+elif sexo == "F" and talla >= 1.75 and masa <= 68:
     print("Ha sido seleccionado")
 
 else:
