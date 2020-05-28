@@ -38,5 +38,7 @@ else:
 
 
 # imprimir resultados
-
+print("el valor de A es: " + str(valor_A))
+print("el valor de B es: " + str(valor_B))
+print("el valor de C es: " + str(valor_C))
 print("el programa ha finalizado")
