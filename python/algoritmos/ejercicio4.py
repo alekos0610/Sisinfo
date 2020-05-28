@@ -1,47 +1,35 @@
 # Evaluar peso estatura y sexo
 
 #Solicitar entradas de teclado para las variables
-print("Encuesta de selección de modelos")
+print("ENCUESTA DE SELECCIÓN DE MODELOS")
 
-nombre = (str(input("por favor ingrese su nombre: ")))
-print(f"bienvenido", nombre,)
+nombre = input("por favor ingrese su nombre: ")
+print("bienvenid@, " + nombre)
 
-print("ingrese la inicial de su sexo biológico:")
-def sexo (print(input("ingrese sexo: "))):
-    print(input("<M> para Masculino, <F> para Femenino: "))
-    return sexo
-    
-
-print("Por favor ingrese su estatura en metros")
-print("ejemplo: 1,50")
-talla = (float(input("estatura: ")))
+print("SELECCIONE SU SEXO SEGÚN LA LISTA")
+print("M - para Masculino")
+print("F - Para femenino")
+opcion = input("Ingresar su selección: ")
 
 print("Por favor ingrese su peso en Kilogramos")
 print("ejemplo: 50")
 masa = (int(input("por favor ingrese su masa corporal: ")))
 
-# determinar si la persona es apta para ser seleccionada
+print("Por favor ingrese su estatura en metros")
+print("ejemplo: 1,50")
+talla = float(input("estatura: "))
 
-if (sexo == "m" or sexo == "M" or sexo == "Masculino" or sexo == "masculino"):
-    print("continua en proceso")
+sexo = opcion.lower()
+
+# Determinar si la persona es apta para ser seleccionada
+
+if sexo == "M" and talla >= 1.80 and masa <= 75:
+    print("Ha sido seleccionado")
+    
+elif sexo == "F" and talla >= 1.80 and masa <= 75:
+    print("Ha sido seleccionado")
+
 else:
-    print("Por favor ingrese la inicial de su sexo biológico:")
-    sexo = (input("<M> para Masculino, <F> para Femenino: "))
-
-
-
+    print("No ha sido seleccionado")
 
 print("El programa ha finalizado")
-
-
-
-
-"""elif masa < 75 and talla > 1.80:
-    print("Seleccionado")
-
-elif sexo == str(F) and masa < 68 and talla > 1.75:
-    print("seleccionado")
-else:
-    ("No seleccionado")"""
-
-
