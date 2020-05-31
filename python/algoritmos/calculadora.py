@@ -41,7 +41,7 @@ elif(y==3):
     print("El resultado de la multiplicación es:",resultado)
 
 # opción 4 - División
-elif(y==4):
+elif(y==4) and !=0:
     a=input("Introduce el primer numero\n")
     b=input("Introduce el segundo numero\n")
     a2=float(a)
